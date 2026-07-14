@@ -7,7 +7,7 @@ export default function Home() {
   const featuredRecipes = recipes.slice(0, 3);
 
   return (
-    <main className="flex-grow">
+    <main className="grow">
 
       {/* seção Hero */}
       <section className="bg-orange-50 py-12">
